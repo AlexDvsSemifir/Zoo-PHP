@@ -11,11 +11,11 @@
 <body>
 
 <?php 
-require_once "./Abstract/Animal.php";
-require_once "./Abstract/Conteneur.php";
 require_once "./Interfaces/Volatile.php";
 require_once "./Interfaces/Aquatique.php";
 require_once "./Interfaces/Terrestre.php";
+require_once "./Abstract/Animal.php";
+require_once "./Abstract/Conteneur.php";
 
 ?>
 

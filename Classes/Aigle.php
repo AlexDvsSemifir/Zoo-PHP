@@ -7,7 +7,6 @@ class Aigle extends Animal implements Volatile {
     public function __toString() {
         return 'Je suis un aigle';
     }
-
     public function seDeplacer() {
         $this->voler();
     }

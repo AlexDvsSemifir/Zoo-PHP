@@ -5,6 +5,9 @@ class Chat extends Animal implements Terrestre {
         return 'Je marche';
     }
 
+    /**
+     * Le chat pose sa pèche
+     */
     public function goLitiere() {
         return 'Je vais faire caca et mettre des graviers partout';
     }
